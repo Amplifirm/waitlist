@@ -31,14 +31,14 @@ export function SmoothCursor() {
     // Check for hoverable elements
     const handleElementHover = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
-      const isHoverable = 
+      const isHoverable =
         target.tagName === 'BUTTON' ||
         target.tagName === 'A' ||
-        target.closest('button') ||
-        target.closest('a') ||
-        target.closest('[role="button"]') ||
+        !!target.closest('button') ||
+        !!target.closest('a') ||
+        !!target.closest('[role="button"]') ||
         target.classList.contains('cursor-pointer');
-      
+
       setIsHovering(isHoverable);
     };
 

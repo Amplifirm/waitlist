@@ -1,6 +1,6 @@
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowRight, ChevronDown, Users, MessageCircle, BookOpen, Video, Github, Twitter, Linkedin, Calendar, Star, ExternalLink, Heart, Zap, Code, Award, TrendingUp, Clock, Send } from 'lucide-react';
+import { ArrowRight, ChevronDown, Users, MessageCircle, BookOpen, Video, Github, Calendar, Star, ExternalLink, Heart, Zap, Code, Award, TrendingUp, Clock, Send } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { SignedIn, SignedOut, UserButton } from '@clerk/clerk-react';
 import SmoothScroll from '../components/SmoothScroll/SmoothScroll';
